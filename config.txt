@@ -1,0 +1,11 @@
+git config --global user.name PedroGrigolato
+git config --global user.email pedrohenriquegrigolato3@gmail.com
+
+-- Criar o projeto
+npx create-expo-app@latest MPmusic --template blank
+cd MPmusic
+
+-- Pacotes
+npx expo install react-dom react-native-web @expo/metro-runtime
+npx expo install @react-native-community/slider
+npx expo install expo-av
